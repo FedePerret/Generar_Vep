@@ -1,8 +1,8 @@
 {
-  "name": "Vep Anticipos",
+  "name": "Generador_de_Vep",
   "projectId": "ffc7bc86-3dfa-4be0-bb38-205985814369",
-  "description": "Blank Process",
-  "main": "Generador_de_Vep.xaml",
+  "description": "Generador de vep y envio de whatsapp",
+  "main": "Generador_Domestica_dif_ART.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.Mail.Activities": "[1.18.0]",
@@ -49,8 +49,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Generador_de_Vep.xaml",
-      "uniqueId": "64033b9d-e9ff-4803-b6be-ecd031c2092d",
+      "filePath": "Generador_de_Vep_Autonomos.xaml",
+      "uniqueId": "da624f94-a6c6-4d45-81be-1e6323dd2b39",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Generador_Domestica_dif_ART.xaml",
+      "uniqueId": "53244ee9-272c-422d-8a22-111366a8bee1",
       "input": [],
       "output": []
     }
