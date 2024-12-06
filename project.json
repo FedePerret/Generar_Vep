@@ -2,7 +2,7 @@
   "name": "Generador_de_Vep",
   "projectId": "ffc7bc86-3dfa-4be0-bb38-205985814369",
   "description": "Generador de vep y envio de whatsapp",
-  "main": "Generador_Domestica_dif_ART.xaml",
+  "main": "Generador_de_Vep_Ant_Ganancias.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.Mail.Activities": "[1.18.0]",
@@ -44,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
@@ -57,6 +58,12 @@
     {
       "filePath": "Generador_Domestica_dif_ART.xaml",
       "uniqueId": "53244ee9-272c-422d-8a22-111366a8bee1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Generador_de_Vep_Ant_Ganancias.xaml",
+      "uniqueId": "4e581544-6201-4708-aada-a3a4c83661a4",
       "input": [],
       "output": []
     }
